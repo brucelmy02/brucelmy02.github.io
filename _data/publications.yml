@@ -1,0 +1,71 @@
+{
+  "main": [
+    {
+      "title": "Resolving Blind Inverse Problems under Dynamic Range Compression via Structured Forward Operator Modeling",
+      "authors": "<strong>Muyu Liu</strong>, Xuanyu Tian, Chenhe Du, Qing Wu, Hongjiang Wei, Yuyao Zhang",
+      "conference": "ICML 2026",
+      "notes": "First author",
+      "pdf": "https://arxiv.org/abs/2603.01890",
+      "code": "https://github.com/brucelmy02/CaMBDiff",
+      "group": "published",
+      "image": "./assets/img/publications/camb.png",
+      "image_alt": "CaMB-Diff: joint diffusion sampling and structured forward operator optimization.",
+      "image_width": 1701,
+      "image_height": 752,
+      "conference_short": "ICML 2026"
+    },
+    {
+      "title": "vEMINR: Ultra-Fast Isotropic Reconstruction for Volume Electron Microscopy with Implicit Neural Representation",
+      "authors": "Jibin Yang, Jie Huo, <strong>Muyu Liu</strong>, Chenjie Feng, Yan Zhang, Gang Pan, Wenjia Meng, Renmin Han",
+      "conference": "Advanced Science, 2026",
+      "notes": "Co-first author",
+      "pdf": "https://doi.org/10.1002/advs.202511922",
+      "code": "https://github.com/KysonYang001/vEMINR",
+      "group": "published",
+      "image": "./assets/img/publications/veminr-figure1.jpg",
+      "image_alt": "vEMINR training and inference workflow for isotropic electron microscopy reconstruction.",
+      "image_width": 546,
+      "image_height": 299,
+      "conference_short": "Advanced Science",
+    },
+    {
+      "title": "Plug-and-Play Diffusion Meets ADMM: Dual-Variable Coupling for Robust Medical Image Reconstruction",
+      "authors": "Chenhe Du, Xuanyu Tian, Qing Wu, <strong>Muyu Liu</strong>, Jingyi Yu, Hongjiang Wei, Yuyao Zhang",
+      "conference": "ICML 2026",
+      "pdf": "https://arxiv.org/abs/2602.23214",
+      "code": "https://github.com/duchenhe/DC-PnPDP",
+      "group": "published",
+      "image": "./assets/img/publications/admm.png",
+      "image_alt": "DC-PnPDP fastMRI brain reconstruction compared with baselines, including detail crops and error maps.",
+      "image_width": 810,
+      "image_height": 366,
+      "conference_short": "ICML 2026"
+    },
+    {
+      "title": "FrameFold: Response-Guided KV Cache Consolidation for Autoregressive Long Video Generation",
+      "authors": "<strong>Muyu Liu</strong>, Mingming Liu, Hong Gu, Yuyao Zhang, Qin Lu",
+      "conference": "Preprint, 2026",
+      "notes": "First author",
+      "group": "preprint",
+      "image": "./assets/img/publications/framefold.png",
+      "image_alt": "FrameFold method overview: response-guided selection and construction of shared KV cache representatives.",
+      "image_width": 1197,
+      "image_height": 432,
+      "conference_short": "Preprint",
+      "website": "https://vivocameraresearch.github.io/FrameFold-Webpage/dist/"
+    },
+    {
+      "title": "Zero-shot Low-Field MRI Enhancement via Diffusion-Based Adaptive Contrast Transport",
+      "authors": "<strong>Muyu Liu</strong>, Chenhe Du, Xuanyu Tian, Qing Wu, Xiao Wang, Haonan Zhang, Hongjiang Wei, Yuyao Zhang",
+      "conference": "arXiv preprint, 2026",
+      "notes": "First author",
+      "pdf": "https://arxiv.org/abs/2603.01913",
+      "group": "preprint",
+      "image": "./assets/img/publications/dact.png",
+      "image_alt": "DACT: adaptive contrast transport integrated with reverse diffusion sampling.",
+      "image_width": 1640,
+      "image_height": 775,
+      "conference_short": "Preprint"
+    }
+  ]
+}

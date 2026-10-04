@@ -1,0 +1,186 @@
+/* Small content adjustments; retain Minimal Light’s original layout. */
+.email-link { display: inline-block; font-size: 12px; overflow-wrap: anywhere; }
+.image.avatar img { width: 140px; height: 180px; object-fit: cover; object-position: 50% 35%; border-radius: 8px; }
+.publications { margin-top: 0; }
+.publications h3 { margin: 22px 0 14px; font-size: 17px; }
+.publications ol.bibliography li { min-height: 0; margin-bottom: 22px; }
+.publications .author { margin-top: 4px; }
+.publications .periodical { margin-top: 4px; }
+.publications .links { margin-top: 8px; display: flex; gap: 8px; }
+.publications .links .btn { font-size: 12px; border-radius: 3px; }
+.contribution { font-size: 13px; }
+a:focus-visible { outline: 2px solid #399ed0; outline-offset: 3px; }
+
+.job-opportunities {
+  margin: 20px 0 28px;
+  padding: 16px 18px;
+  background: #fff7ed;
+  border-left: 4px solid #d97706;
+  border-radius: 6px;
+  color: #78350f;
+}
+.job-opportunities p { margin: 0; }
+.job-opportunities .job-opportunities-title {
+  margin-bottom: 6px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.job-opportunities strong { color: inherit; }
+.job-opportunities-title strong { font-weight: inherit; }
+@media (prefers-color-scheme: dark) {
+  .job-opportunities { background: #302519; border-color: #fbbf24; color: #ffdbb3; }
+}
+
+/* Fixed navigation with room for anchored headings below it. */
+html { scroll-behavior: smooth; }
+body { padding-top: 56px; }
+.wrapper section h2[id] { scroll-margin-top: 80px; }
+.top-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background: #fff;
+  border-bottom: 1px solid #e8e8e8;
+}
+.top-nav-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  max-width: 960px;
+  min-height: 56px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.top-nav-brand { flex-shrink: 0; font-size: 17px; font-weight: 600; }
+.top-nav-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  overflow-x: auto;
+  min-width: 0;
+}
+.top-nav-links a {
+  flex-shrink: 0;
+  padding: 16px 0;
+  font-size: 14px;
+  line-height: 24px;
+  border-bottom: 2px solid transparent;
+  box-sizing: border-box;
+}
+.top-nav-links a:hover, .top-nav-links a:focus-visible {
+  border-bottom-color: currentColor;
+}
+@media (prefers-color-scheme: dark) {
+  .top-nav { background: #20212b; border-color: #3d4350; }
+}
+@media screen and (max-width: 700px) {
+  .top-nav-brand { display: none; }
+  .top-nav-inner { padding: 0 15px; }
+  .top-nav-links { width: 100%; gap: 18px; }
+}
+@media screen and (max-width: 960px) {
+  body { padding-top: 76px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
+@media print {
+  .top-nav { display: none; }
+  body { padding-top: 0.4in; }
+}
+
+/* Paper figures follow the image-left, text-right Minimal Light layout. */
+.publication-entry.has-figure {
+  display: grid;
+  grid-template-columns: 180px minmax(0, 1fr);
+  gap: 20px;
+  align-items: center;
+}
+.publication-visual { position: relative; min-width: 0; text-align: center; }
+.figure-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 108px;
+  padding: 5px;
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 7px;
+  box-shadow: 2px 2px 5px #00000012;
+}
+.paper-figure { display: block; width: 100%; height: auto; max-height: 145px; object-fit: contain; }
+.venue-badge {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  z-index: 1;
+  pointer-events: none;
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 3px;
+  box-shadow: 0 2px 5px #00000029;
+  background: #043361;
+  color: #fff;
+  font-size: 11px;
+  line-height: 1.5;
+}
+.figure-credit { display: block; margin-top: 4px; font-size: 9px; line-height: 1.4; }
+.publication-details { min-width: 0; overflow-wrap: anywhere; }
+@media (prefers-color-scheme: dark) {
+  .figure-link { border-color: #58616a; }
+  .venue-badge { background: #164d70; }
+}
+@media screen and (max-width: 600px) {
+  .publication-entry.has-figure { grid-template-columns: minmax(0, 1fr); gap: 12px; }
+  .publication-visual { width: min(260px, 100%); }
+  .figure-link { min-height: 0; }
+}
+
+.social-icons .social-icon-static {
+  display: inline-block;
+  width: 2.4rem;
+  height: 2.4rem;
+  margin: 0 5px 0 0;
+  color: #043361;
+  text-align: center;
+  font-size: 1.15rem;
+  line-height: 2.5rem;
+  cursor: default;
+}
+.social-icons .social-icon-static:last-child { margin-right: 0; }
+@media (prefers-color-scheme: dark) {
+  .social-icons .social-icon-static { color: #3eb7f0; }
+}
+
+/* Align institution marks with their education and internship entries. */
+.affiliation-entry {
+  display: grid;
+  grid-template-columns: 80px minmax(0, 1fr);
+  gap: 18px;
+  align-items: start;
+  margin: 0 0 24px;
+}
+.affiliation-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  background: #fff;
+  border-radius: 8px;
+}
+.affiliation-logo img { display: block; width: 64px; height: 64px; object-fit: contain; }
+.affiliation-logo-wordmark img { width: 72px; height: 48px; }
+.affiliation-content { min-width: 0; }
+.affiliation-content p { margin: 0 0 4px; }
+.affiliation-content .affiliation-date { font-size: 13px; opacity: .8; }
+.affiliation-content .affiliation-description { margin-top: 12px; }
+@media screen and (max-width: 480px) {
+  .affiliation-entry { grid-template-columns: 58px minmax(0, 1fr); gap: 12px; }
+  .affiliation-logo { width: 58px; height: 64px; }
+  .affiliation-logo img { width: 50px; height: 50px; }
+  .affiliation-logo-wordmark img { width: 54px; height: 36px; }
+}

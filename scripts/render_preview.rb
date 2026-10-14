@@ -35,6 +35,7 @@ module PreviewFilters
 end
 Liquid::Template.register_filter(PreviewFilters)
 site = YAML.load_file('_config.yml')
+site['time'] = Time.now
 site['data'] = {}
 Dir['_data/**/*.{yml,yaml,json}'].sort.each do |path|
   keys = path.sub('_data/', '').sub(/\.(yml|yaml|json)$/, '').split('/')

@@ -2,6 +2,7 @@
 .email-link { display: inline-block; font-size: 12px; overflow-wrap: anywhere; }
 .image.avatar img { width: 140px; height: 180px; object-fit: cover; object-position: 50% 35%; border-radius: 8px; }
 .publications { margin-top: 0; }
+.publication-legend { margin: 0 0 16px; font-size: 13px; }
 .publications ol.bibliography li { min-height: 0; margin-bottom: 22px; }
 .publications .author { margin-top: 4px; }
 .publications .periodical { margin-top: 4px; }

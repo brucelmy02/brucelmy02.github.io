@@ -1,5 +1,6 @@
 <h2 id="publications">Publications</h2>
 <div class="publications">
+<p class="publication-legend"><sup>*</sup> Equal contribution</p>
 <ol class="bibliography">
 {% assign papers = site.data.publications.main | sort: "date" | reverse %}
 {% for paper in papers %}

@@ -9,8 +9,8 @@
 .publications .links { margin-top: 8px; display: flex; gap: 8px; }
 .publications .links .btn { font-size: 12px; border-radius: 3px; }
 .contribution { font-size: 13px; }
-.publications .publication-entry.first-author .title,
-.publications .publication-entry.first-author .title a,
+.publications .publication-entry .title,
+.publications .publication-entry .title a,
 .publications .publication-entry.first-author .author strong,
 .publications .publication-entry.first-author .contribution {
   color: #043361;
@@ -18,8 +18,8 @@
 .publications .publication-entry.first-author .author strong,
 .publications .publication-entry.first-author .contribution { font-weight: 600; }
 @media (prefers-color-scheme: dark) {
-  .publications .publication-entry.first-author .title,
-  .publications .publication-entry.first-author .title a,
+  .publications .publication-entry .title,
+  .publications .publication-entry .title a,
   .publications .publication-entry.first-author .author strong,
   .publications .publication-entry.first-author .contribution { color: #8bbce8; }
 }

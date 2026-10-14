@@ -16,7 +16,7 @@
     },
     {
       "title": "vEMINR: Ultra-Fast Isotropic Reconstruction for Volume Electron Microscopy with Implicit Neural Representation",
-      "authors": "Jibin Yang, Jie Huo, <strong>Muyu Liu<sup>*</sup></strong>, Chenjie Feng, Yan Zhang, Gang Pan, Wenjia Meng, Renmin Han",
+      "authors": "Jibin Yang<sup>*</sup>, Jie Huo<sup>*</sup>, <strong>Muyu Liu<sup>*</sup></strong>, Chenjie Feng, Yan Zhang, Gang Pan, Wenjia Meng, Renmin Han",
       "conference": "Advanced Science, 2026",
       "notes": "Co-first author",
       "pdf": "https://doi.org/10.1002/advs.202511922",

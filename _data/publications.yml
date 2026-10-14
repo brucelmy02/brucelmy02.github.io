@@ -46,6 +46,7 @@
       "authors": "<strong>Muyu Liu</strong>, Mingming Liu, Hong Gu, Yuyao Zhang, Qin Lu",
       "conference": "Preprint, 2026",
       "notes": "First author",
+      "pdf": "https://arxiv.org/abs/2610.14568",
       "group": "preprint",
       "image": "./assets/img/publications/framefold.png",
       "image_alt": "FrameFold method overview: response-guided selection and construction of shared KV cache representatives.",

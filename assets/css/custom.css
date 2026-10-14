@@ -2,13 +2,26 @@
 .email-link { display: inline-block; font-size: 12px; overflow-wrap: anywhere; }
 .image.avatar img { width: 140px; height: 180px; object-fit: cover; object-position: 50% 35%; border-radius: 8px; }
 .publications { margin-top: 0; }
-.publications h3 { margin: 22px 0 14px; font-size: 17px; }
 .publications ol.bibliography li { min-height: 0; margin-bottom: 22px; }
 .publications .author { margin-top: 4px; }
 .publications .periodical { margin-top: 4px; }
 .publications .links { margin-top: 8px; display: flex; gap: 8px; }
 .publications .links .btn { font-size: 12px; border-radius: 3px; }
 .contribution { font-size: 13px; }
+.publications .publication-entry.first-author .title,
+.publications .publication-entry.first-author .title a,
+.publications .publication-entry.first-author .author strong,
+.publications .publication-entry.first-author .contribution {
+  color: #043361;
+}
+.publications .publication-entry.first-author .author strong,
+.publications .publication-entry.first-author .contribution { font-weight: 600; }
+@media (prefers-color-scheme: dark) {
+  .publications .publication-entry.first-author .title,
+  .publications .publication-entry.first-author .title a,
+  .publications .publication-entry.first-author .author strong,
+  .publications .publication-entry.first-author .contribution { color: #8bbce8; }
+}
 a:focus-visible { outline: 2px solid #399ed0; outline-offset: 3px; }
 
 .job-opportunities {

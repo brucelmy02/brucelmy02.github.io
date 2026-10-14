@@ -6,7 +6,7 @@
 
 - `_config.yml`：姓名、机构、邮箱、Google Scholar、GitHub、CV 与头像。
 - `index.md`：简介、研究方向、教育、研究经历。
-- `_data/publications.yml`：全部 5 篇论文，按 published / preprint 分组。
+- `_data/publications.yml`：全部论文。`date` 填首次公开日期（YYYY-MM-DD），页面自动从新到旧排序；`notes` 中的 First author / Co-first author 会触发深蓝色突出显示。
 - `assets/img/profile.jpg`：用户提供的个人主页形象照。
 - `resume.pdf`：保留原简历；主页的 CV 入口目前隐藏，重新填写 `_config.yml` 中的 `cv_link` 可显示。
 - `CONTENT_SOURCES.md`：内容依据与状态说明（不进入生成站点）。

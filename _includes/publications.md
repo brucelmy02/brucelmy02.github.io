@@ -1,15 +1,13 @@
-<h2 id="publications">Publications &amp; Preprints</h2>
+<h2 id="publications">Publications</h2>
 <div class="publications">
-{% assign groups = "published,preprint" | split: "," %}
-{% for group in groups %}
-<h3>{% if group == "published" %}Published{% else %}Preprints{% endif %}</h3>
 <ol class="bibliography">
-{% for paper in site.data.publications.main %}
-{% if paper.group == group %}
+{% assign papers = site.data.publications.main | sort: "date" | reverse %}
+{% for paper in papers %}
 {% assign paper_pdf = paper.pdf | default: "" %}
 {% assign paper_code = paper.code | default: "" %}
 {% assign paper_website = paper.website | default: "" %}
-<li class="publication-entry{% if paper.image and paper.image != empty %} has-figure{% endif %}">
+{% assign contribution_role = paper.notes | default: "" | downcase %}
+<li class="publication-entry{% if paper.image and paper.image != empty %} has-figure{% endif %}{% if contribution_role contains "first author" %} first-author{% endif %}">
   {% if paper.image and paper.image != empty %}
   <div class="publication-visual">
     <a class="figure-link" href="{{ paper.image }}" aria-label="View full figure: {{ paper.image_alt | escape }}">
@@ -30,8 +28,6 @@
     </div>{% endif %}
   </div>
 </li>
-{% endif %}
 {% endfor %}
 </ol>
-{% endfor %}
 </div>

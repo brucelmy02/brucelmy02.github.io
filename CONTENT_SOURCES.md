@@ -33,5 +33,13 @@ Source: /Users/bruce/Downloads/iclr2027_tex-2.pdf, supplied by the user.
 
 - Teaser: Figure 3, page 5, cropped to the complete method overview at 3× page resolution; no figure content altered.
 - Website: https://vivocameraresearch.github.io/FrameFold-Webpage/dist/ , extracted from the first-page Project page link; HTTP 200 verified.
-- User states it has not yet been uploaded to arXiv; label is Preprint, 2026. No arXiv URL or code URL has been invented.
-- Publication subsection heading simplified to Preprints at the user's request.
+- The user subsequently supplied https://arxiv.org/abs/2610.14568, verified against the matching title and authors, and the homepage now links to it. No code URL has been invented.
+
+## Publication order and author highlighting
+
+As requested on 2026-10-14, papers appear in a single Publications list, newest first, using first public release dates. First-author and co-first-author contributions are highlighted in deep blue.
+
+- FrameFold: 2026-10-10, https://arxiv.org/abs/2610.14568 .
+- CaMB-Diff and DACT: 2026-03-02, https://arxiv.org/abs/2603.01890 and https://arxiv.org/abs/2603.01913 .
+- DC-PnPDP: 2026-02-26, https://arxiv.org/abs/2602.23214 .
+- vEMINR: 2026-01-30 (online publication), https://pmc.ncbi.nlm.nih.gov/articles/PMC12955999/ .

@@ -19,10 +19,9 @@
       }
     });
 
-    contact.addEventListener('keydown', function (event) {
+    document.addEventListener('keydown', function (event) {
       if (event.key === 'Escape') {
         contact.open = false;
-        event.stopPropagation();
       }
     });
 

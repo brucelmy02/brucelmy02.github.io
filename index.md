@@ -10,6 +10,15 @@ My name is Muyu Liu (柳沐雨 in Chinese). I am currently pursuing an M.S. degr
   <p class="job-opportunities-title"><strong><span lang="zh-CN">求职意向</span> · Job Opportunities</strong></p>
   <p lang="zh-CN">我正在寻找<strong>自回归视频生成</strong>、<strong>交互式世界模型</strong>方向的<strong>日常实习机会及 2027 届全职工作机会</strong>，预计于 2027 年毕业。</p>
   <p lang="en">I am seeking <strong>internship opportunities</strong> and <strong>full-time roles starting in 2027</strong>, focusing on <strong>autoregressive video generation</strong> and <strong>interactive world models</strong>. I expect to graduate in 2027.</p>
+  <details class="contact-wechat">
+    <summary aria-controls="wechat-contact-card">Contact me</summary>
+    <div class="wechat-contact-card" id="wechat-contact-card" role="region" aria-label="WeChat contact QR code">
+      <div class="wechat-contact-content">
+        <p class="wechat-contact-title">WeChat</p>
+        <img src="./assets/img/wechat-qr.jpg" alt="Scan this WeChat QR code to add Muyu Liu as a friend" width="888" height="1131" loading="lazy">
+      </div>
+    </div>
+  </details>
 </aside>
 
 ## Research Interests

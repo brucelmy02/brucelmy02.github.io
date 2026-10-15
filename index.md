@@ -7,8 +7,9 @@ layout: homepage
 My name is Muyu Liu (柳沐雨 in Chinese). I am currently pursuing an M.S. degree in Computer Science and Technology at [ShanghaiTech University](https://www.shanghaitech.edu.cn/) in Shanghai, China. Before that, I received my B.E. degree in Software Engineering from [Shandong University](https://www.sdu.edu.cn/) in Jinan, China, in 2024.
 
 <aside class="job-opportunities" aria-label="Job opportunities">
-  <p class="job-opportunities-title"><strong>Job Opportunities</strong></p>
-  <p>I am seeking full-time opportunities for the 2027 graduating class in <strong>autoregressive video generation</strong> and <strong>interactive world models</strong>.</p>
+  <p class="job-opportunities-title"><strong><span lang="zh-CN">求职意向</span> · Job Opportunities</strong></p>
+  <p lang="zh-CN">我正在寻找<strong>自回归视频生成</strong>、<strong>交互式世界模型</strong>方向的<strong>日常实习机会及 2027 届全职工作机会</strong>，预计于 2027 年毕业。</p>
+  <p lang="en">I am seeking <strong>internship opportunities</strong> and <strong>full-time roles starting in 2027</strong>, focusing on <strong>autoregressive video generation</strong> and <strong>interactive world models</strong>. I expect to graduate in 2027.</p>
 </aside>
 
 ## Research Interests

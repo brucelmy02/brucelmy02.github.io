@@ -34,12 +34,13 @@ a:focus-visible { outline: 2px solid #399ed0; outline-offset: 3px; }
   color: #78350f;
 }
 .job-opportunities p { margin: 0; }
+.job-opportunities p[lang="en"] { margin-top: 10px; }
 .job-opportunities .job-opportunities-title {
   margin-bottom: 6px;
   font-size: 16px;
   font-weight: 700;
 }
-.job-opportunities strong { color: inherit; }
+.job-opportunities strong { color: inherit; font-weight: 600; }
 .job-opportunities-title strong { font-weight: inherit; }
 @media (prefers-color-scheme: dark) {
   .job-opportunities { background: #302519; border-color: #fbbf24; color: #ffdbb3; }

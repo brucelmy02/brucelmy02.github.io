@@ -48,7 +48,7 @@ My name is Muyu Liu (柳沐雨 in Chinese). I am currently pursuing an M.S. degr
 <div class="affiliation-entry">
   <div class="affiliation-logo"><img src="./assets/img/sdu-v2.svg" alt="Shandong University logo" width="64" height="64" loading="lazy"></div>
   <div class="affiliation-content">
-    <p class="affiliation-heading"><strong>Shandong University</strong> · China</p>
+    <p class="affiliation-heading"><strong>Shandong University</strong> · Jinan, China</p>
     <p>Bachelor’s in Software Engineering</p>
     <p class="affiliation-date">September 2020 – June 2024</p>
   </div>

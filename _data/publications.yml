@@ -2,7 +2,7 @@
   "main": [
     {
       "title": "Resolving Blind Inverse Problems under Dynamic Range Compression via Structured Forward Operator Modeling",
-      "authors": "<strong>Muyu Liu</strong>, Xuanyu Tian, Chenhe Du, Qing Wu, Hongjiang Wei, Yuyao Zhang",
+      "authors": "<strong>Muyu Liu</strong>, <a href=\"https://meijitian.github.io\">Xuanyu Tian</a>, <a href=\"https://duchenhe.com\">Chenhe Du</a>, <a href=\"https://iwuqing.github.io\">Qing Wu</a>, Hongjiang Wei, Yuyao Zhang",
       "conference": "ICML 2026",
       "notes": "First author",
       "pdf": "https://arxiv.org/abs/2603.01890",
@@ -30,7 +30,7 @@
     },
     {
       "title": "Plug-and-Play Diffusion Meets ADMM: Dual-Variable Coupling for Robust Medical Image Reconstruction",
-      "authors": "Chenhe Du, Xuanyu Tian, Qing Wu, <strong>Muyu Liu</strong>, Jingyi Yu, Hongjiang Wei, Yuyao Zhang",
+      "authors": "<a href=\"https://duchenhe.com\">Chenhe Du</a>, <a href=\"https://meijitian.github.io\">Xuanyu Tian</a>, <a href=\"https://iwuqing.github.io\">Qing Wu</a>, <strong>Muyu Liu</strong>, Jingyi Yu, Hongjiang Wei, Yuyao Zhang",
       "conference": "ICML 2026",
       "pdf": "https://arxiv.org/abs/2602.23214",
       "code": "https://github.com/duchenhe/DC-PnPDP",
@@ -57,7 +57,7 @@
     },
     {
       "title": "Zero-shot Low-Field MRI Enhancement via Diffusion-Based Adaptive Contrast Transport",
-      "authors": "<strong>Muyu Liu</strong>, Chenhe Du, Xuanyu Tian, Qing Wu, Xiao Wang, Haonan Zhang, Hongjiang Wei, Yuyao Zhang",
+      "authors": "<strong>Muyu Liu</strong>, <a href=\"https://duchenhe.com\">Chenhe Du</a>, <a href=\"https://meijitian.github.io\">Xuanyu Tian</a>, <a href=\"https://iwuqing.github.io\">Qing Wu</a>, Xiao Wang, Haonan Zhang, Hongjiang Wei, Yuyao Zhang",
       "conference": "arXiv preprint, 2026",
       "notes": "First author",
       "pdf": "https://arxiv.org/abs/2603.01913",

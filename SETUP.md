@@ -11,6 +11,14 @@
 - `resume.pdf`：保留原简历；主页的 CV 入口目前隐藏，重新填写 `_config.yml` 中的 `cv_link` 可显示。
 - `CONTENT_SOURCES.md`：内容依据与状态说明（不进入生成站点）。
 
+## 访客统计（仅后台）
+
+在 GoatCounter 官网注册统计站点后，将站点地址 `https://YOURCODE.goatcounter.com` 中的 YOURCODE 填入 `_config.yml` 的 `goatcounter_code`。留空时不启用统计。
+
+本站使用 `brucelmy02`，登录后台地址为 https://brucelmy02.goatcounter.com/ 。
+
+接入后只加载统计脚本，不显示公开计数器或后台链接。统计后台应保持私有，不开启公开统计页和公开访客计数功能。脚本仅在 Jekyll production 构建中加入页面，本地预览不计入统计。
+
 ## 本地自动预览
 
 在项目根目录打开终端，运行：

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Muyu Liu</title>
+  <rect width="64" height="64" rx="16" fill="#183b66"/>
+  <path fill="#fff" d="M10 46V18h6l7 14 7-14h6v28h-6V31l-7 13-7-13v15zm32-28h6v22h10v6H42z"/>
+</svg>

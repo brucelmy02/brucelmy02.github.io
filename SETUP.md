@@ -19,6 +19,8 @@
 
 接入后只加载统计脚本，不显示公开计数器或后台链接。统计后台应保持私有，不开启公开统计页和公开访客计数功能。脚本仅在 Jekyll production 构建中加入页面，本地预览不计入统计。
 
+官方支持自行托管统计脚本。为避免 gc.zgo.at CDN 的连接问题，本站使用 `assets/js/goatcounter.js`（官方 v2.7.0 的 public/count.js，Git blob b40052dc29f58fba1dd4b90efedf2934c65e7bf0），保留 ISC 许可文件；数据仍发送到本站的 GoatCounter 后台。更新脚本时应从官方稳定版本取得并保留许可。参考：https://www.goatcounter.com/help/countjs-host 。
+
 ## 本地自动预览
 
 在项目根目录打开终端，运行：

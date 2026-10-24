@@ -122,7 +122,7 @@
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
     <script src="{{ "/assets/js/contact-wechat.js" | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
     {% if site.goatcounter_code and site.goatcounter_code != empty and jekyll.environment == "production" %}
-    <script data-goatcounter="https://{{ site.goatcounter_code | escape }}.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+    <script data-goatcounter="https://{{ site.goatcounter_code | escape }}.goatcounter.com/count" async src="{{ "/assets/js/goatcounter.js" | relative_url }}?v={{ site.time | date: '%s' }}"></script>
     {% endif %}
     {% if site.google_analytics and site.google_analytics != empty %}
     <script>

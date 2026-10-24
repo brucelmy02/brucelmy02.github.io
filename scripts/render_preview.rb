@@ -91,6 +91,9 @@ File.open(File.join(output, '.build.lock'), 'w') do |lock|
   destination = File.join(output, 'resume.pdf')
   FileUtils.rm_f(destination)
   FileUtils.cp('resume.pdf', destination) if File.exist?('resume.pdf')
+  favicon_destination = File.join(output, 'favicon.ico')
+  FileUtils.rm_f(favicon_destination)
+  FileUtils.cp('favicon.ico', favicon_destination) if File.exist?('favicon.ico')
   styles.each { |path, css| File.write(File.join(output, path), css) }
   temporary = File.join(output, 'index.html.new')
   File.write(temporary, html)

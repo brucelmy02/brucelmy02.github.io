@@ -31,7 +31,7 @@ def build():
 
 
 def snapshot():
-    paths = [ROOT / 'index.md', ROOT / '_config.yml', ROOT / 'resume.pdf', RENDERER]
+    paths = [ROOT / 'index.md', ROOT / '_config.yml', ROOT / 'resume.pdf', ROOT / 'favicon.ico', RENDERER]
     for folder in ('_includes', '_layouts', '_data', '_sass', 'assets'):
         paths.extend(p for p in (ROOT / folder).rglob('*') if p.is_file())
     state = {}
